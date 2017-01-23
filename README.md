@@ -18,7 +18,11 @@ I want to be able to add tags to saved links
 As a user
 So that I can easily find a bookmark
 I want to filter my bookmarks by tag
-```
+
+---------------------
+
+Domain Model
+
 Objects |  Messages
         |  
 List    |  .view
@@ -26,3 +30,4 @@ List    |  .view
         |  .add_link(link)
 Link    |  .add_tag(tag)
 Tag     |  .create
+```
