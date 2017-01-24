@@ -8,7 +8,6 @@ describe 'User stories' do
     scenario 'the user would like to see a list of links on her homepage' do
       Link.create(url: 'http://www.twitter.com', title: 'Twitter')
       visit '/links'
-      # expect(page).to have_selector(:link, 'Title 1')
       within 'ul#links' do
         expect(page).to have_content('Twitter')
       end

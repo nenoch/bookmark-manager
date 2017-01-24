@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-ruby '2.4.0'
+ruby '2.3.3'
 
 gem 'capybara'
 gem 'rspec'
