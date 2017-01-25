@@ -14,7 +14,6 @@ class BookmarkManager < Sinatra::Base
     erb :'links/new'
   end
 
-  Link.create(url: 'http://www.twitter.com', title: 'Twitter')
 
   post '/links' do
     Link.create(url: params[:url], title: params[:title])
